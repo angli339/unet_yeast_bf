@@ -96,7 +96,7 @@ class UNet(keras.Model):
         labels = measure.label(mask)
 
         df = pd.DataFrame(measure.regionprops_table(labels, score, properties=('label', 'intensity_mean')))
-        for i in list(df[df.intensity_mean <= 0.95].label):
+        for i in list(df[df.intensity_mean <= score_threshold].label):
             labels[labels==i] = 0
         
         mask = labels > 0
