@@ -48,7 +48,7 @@ This model was developed specifically for bright-field yeast images acquired und
 
 The model and weights are provided as-is for transparency and reproducibility purposes.
 
-## Reference
+## Citation
 
 If you use this model or find it useful in your work, please cite:
 
