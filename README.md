@@ -34,13 +34,13 @@ https://huggingface.co/angli339/unet_yeast_bf
 import unet_yeast_bf
 from tifffile import imread
 
-model=unet_yeast_bf.UNet()
+model = unet_yeast_bf.UNet()
 
 im = imread('sample_images/typical_density.tif')
 score, labels = model.segment_and_label(im)
 ```
 
-Alternatively, see [notebooks/demo.ipynb](notebooks/demo.ipynb) for example code demonstrating how to load the TensorFlow SavedModel and run inference.
+Alternatively, see [notebooks/demo.ipynb](notebooks/demo.ipynb) for example code demonstrating how to load from TensorFlow SavedModel format and run inference.
 
 ## Limitations
 
