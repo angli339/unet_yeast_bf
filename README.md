@@ -18,7 +18,7 @@ The model was trained to explicitly identify boundaries between contacting cells
 
 This minimal post-processing pipeline makes the model faster than several alternative methods we evaluated while remaining effective at excluding out-of-focus cells and robust to morphological variation, including elongated cell shapes.
 
-Representative training images, evaluation images, and benchmark results are shown below:
+Representative training images, evaluation images, and benchmark results (with a single NVIDIA GTX 1070 GPU) are shown below:
 
 ![Training data, evaluation, and benchmark](.github/unet_supplemental_figure.jpg)
 
