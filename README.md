@@ -52,4 +52,4 @@ The model and weights are provided as-is for transparency and reproducibility pu
 
 If you use this model or find it useful in your work, please cite:
 
-* Li, A. and Springer, M. (2026). *Glucose repression of HXK1 is glucose flux-dependent via non-canonical regulation of Mig1*. *bioRxiv*.
+* Li, A. and Springer, M. (2026). *Glucose repression of HXK1 is glucose flux-dependent via non-canonical regulation of Mig1*. *bioRxiv*. DOI: [10.64898/2026.08.09.743801](https://doi.org/10.64898/2026.08.09.743801)
